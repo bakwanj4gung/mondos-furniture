@@ -1,0 +1,101 @@
+@media screen and (max-width: 1480px) {
+    header {
+        width: 100%;
+    }
+    .container1 {
+        width: 95%;
+    }
+
+    .container1 .logo a {
+        font-size: 30px;
+        line-height: normal;
+    }
+    #gallery {
+        box-sizing: border-box;
+        width: 100%;
+        height: fit-content;
+    }
+    .container2 {
+        width: 100%;
+        height: fit-content;
+    }
+
+    #contact {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .container3 {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #contact {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .container4 {
+        width: 100%;
+        height: fit-content;
+    }
+}
+
+@media screen and (max-width: 935px) {
+    .burger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .nav    {
+        position: fixed;
+        width: 40%;
+        right: 0;
+        top: 0;
+        height: 100vh;
+        flex-direction: column;
+        background: #000;
+        opacity: 80%;
+        border-left: 1px solid #FFCA0D;
+        z-index: 9;
+        transform: translateX(100%);
+        transition: .2s ease-in-out;
+    }
+
+    .nav ul {
+        height: 100vh;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .nav ul li a {
+        color: #FFCA0D;
+    }
+
+    .nav-active {
+        transform: translateX(0);
+    }
+
+}
+
+@media screen and (max-width: 470px) {
+
+    .container3 .video {
+        display: none;
+    }
+    
+    .container3  .desc {
+        width: 100%;
+    }
+
+    .people .person .detail h3 {
+        font-size: 30px;
+        margin-top: 35px;
+    }
+
+    .container4 h2 {
+        font-size: 40px;
+    }
+
+}
